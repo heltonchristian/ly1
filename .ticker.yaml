@@ -1,0 +1,27 @@
+show-summary: true
+show-tags: true
+show-fundamentals: true
+show-separator: true
+show-holdings: true
+interval: 2
+show-holdings: true
+currency: BRL
+currency-summary-only: true
+sort: alpha
+watchlist:
+      - CMIG4.SA
+      - CPLE6.SA
+      - SAPR4.SA
+      - SANB4.SA
+      - ITSA4.SA
+      - A1MD34.SA
+      - ITLC34.SA
+      - MSFT34.SA
+      - QCOM34.SA
+      - GOGL34.SA
+      -
+      - MSFT
+      - AMD
+      - GOOGL
+      - QCOM
+      - INTC 
