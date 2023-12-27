@@ -1,0 +1,99 @@
+18:09:56.443: Using EGL/X11
+18:09:56.443: CPU Name: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+18:09:56.443: CPU Speed: 3593.124MHz
+18:09:56.443: Physical Cores: 4, Logical Cores: 8
+18:09:56.443: Physical Memory: 15931MB Total, 14950MB Free
+18:09:56.443: Kernel Version: Linux 6.1.69-1-lts
+18:09:56.443: Distribution: "Arch Linux" Unknown
+18:09:56.443: Session Type: tty
+18:09:56.443: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+18:09:56.444: Qt Version: 6.6.1 (runtime), 6.6.1 (compiled)
+18:09:56.444: Portable mode: false
+18:09:56.477: OBS 30.0.2-1 (linux)
+18:09:56.477: ---------------------------------
+18:09:56.477: ---------------------------------
+18:09:56.477: audio settings reset:
+18:09:56.477: 	samples per sec: 48000
+18:09:56.477: 	speakers:        2
+18:09:56.477: 	max buffering:   960 milliseconds
+18:09:56.477: 	buffering type:  dynamically increasing
+18:09:56.478: ---------------------------------
+18:09:56.478: Initializing OpenGL...
+18:09:56.508: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 960/PCIe/SSE2
+18:09:56.508: OpenGL loaded successfully, version 3.3.0 NVIDIA 545.29.06, shading language 3.30 NVIDIA via Cg compiler
+18:09:56.534: ---------------------------------
+18:09:56.534: video settings reset:
+18:09:56.534: 	base resolution:   1920x1080
+18:09:56.534: 	output resolution: 1920x1080
+18:09:56.534: 	downscale filter:  Bicubic
+18:09:56.534: 	fps:               60/1
+18:09:56.534: 	format:            NV12
+18:09:56.534: 	YUV mode:          Rec. 709/Partial
+18:09:56.534: NV12 texture support not available
+18:09:56.534: P010 texture support not available
+18:09:56.535: Audio monitoring device:
+18:09:56.535: 	name: Default
+18:09:56.535: 	id: default
+18:09:56.535: ---------------------------------
+18:09:56.541: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:09:56.546: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:09:56.551: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:09:56.551: Failed to initialize module 'decklink.so'
+18:09:56.553: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+18:09:56.553: 
+18:09:56.554: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+18:09:56.554: 
+18:09:56.554: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+18:09:56.586: [pipewire] No captures available
+18:09:56.600: v4l2loopback not installed, virtual camera disabled
+18:09:56.643: NVENC supported
+18:09:56.644: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+18:09:56.644: FFmpeg VAAPI H264 encoding not supported
+18:09:56.644: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+18:09:56.644: FFmpeg VAAPI HEVC encoding not supported
+18:09:56.691: ---------------------------------
+18:09:56.691:   Loaded Modules:
+18:09:56.691:     text-freetype2.so
+18:09:56.691:     rtmp-services.so
+18:09:56.691:     obs-x264.so
+18:09:56.691:     obs-vst.so
+18:09:56.691:     obs-transitions.so
+18:09:56.691:     obs-qsv11.so
+18:09:56.691:     obs-outputs.so
+18:09:56.691:     obs-libfdk.so
+18:09:56.691:     obs-filters.so
+18:09:56.691:     obs-ffmpeg.so
+18:09:56.691:     linux-v4l2.so
+18:09:56.691:     linux-pulseaudio.so
+18:09:56.691:     linux-pipewire.so
+18:09:56.691:     linux-jack.so
+18:09:56.691:     linux-capture.so
+18:09:56.691:     linux-alsa.so
+18:09:56.691:     image-source.so
+18:09:56.691:     decklink-output-ui.so
+18:09:56.691:     decklink-captions.so
+18:09:56.691: ---------------------------------
+18:09:56.691: ==== Startup complete ===============================================
+18:09:56.712: All scene data cleared
+18:09:56.712: ------------------------------------------------
+18:09:56.716: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+18:09:56.716: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:09:56.716: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor' (default)
+18:09:56.716: [Loaded global audio device]: 'Desktop Audio'
+18:09:56.716: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+18:09:56.717: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:09:56.717: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor' (default)
+18:09:56.717: [Loaded global audio device]: 'Mic/Aux'
+18:09:56.717: xshm-input: Geometry 1920x1080 @ 0,0
+18:09:56.717: xshm-input: Geometry 1920x1080 @ 1920,0
+18:09:56.719: Switched to scene 'Tela 1'
+18:09:56.719: ------------------------------------------------
+18:09:56.719: Loaded scenes:
+18:09:56.719: - scene 'Tela 1':
+18:09:56.719:     - source: 'tela 1' (xshm_input)
+18:09:56.719: - scene 'Tela 2':
+18:09:56.719:     - source: 'tela 2' (xshm_input)
+18:09:56.719: ------------------------------------------------
+18:09:57.267: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+18:09:57.267: 
+18:13:31.400: The X11 connection broke (error 1). Did the X11 server die?
