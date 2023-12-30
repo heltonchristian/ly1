@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install -y git golang-go bspwm sxhkd zsh kitty vim rofi nemo btop polybar papirus-icon-theme fonts-nerd-fonts fonts-firacode feh redshift neofetch ncdu xclip maim pulsemixer firefox chromium picom 7zip
+sudo apt-get install -y bspwm sxhkd zsh kitty vim rofi nemo btop polybar papirus-icon-theme fonts-open-sans feh redshift neofetch xclip maim pulsemixer firefox-esr chromium picom 7zip
 
 mkdir -p ~/.config
 cp -r .config/* ~/.config/
@@ -21,9 +21,3 @@ cd papirus-folders
 sudo ./install.sh
 cd ..
 rm -rf papirus-folders
-
-git clone https://github.com/sainnhe/equilux-theme.git
-cd equilux-theme
-sudo ./install.sh
-cd ..
-rm -rf equilux-theme
