@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Instalar programas
-sudo pacman -S --noconfirm git go bspwm sxhkd zsh kitty vim rofi nemo ranger w3m btop polybar papirus-icon-theme ttf-nerd-fonts-symbols ttf-fira-code feh redshift neofetch ncspot xclip maim pulsemixer firefox chromium picom
+sudo pacman -S --noconfirm git go bspwm sxhkd zsh kitty vim rofi nemo htop polybar papirus-icon-theme ttf-nerd-fonts-symbols ttf-fira-code feh redshift neofetch ncspot xclip maim pulsemixer firefox chromium picom
 
 # Mover .config
 mkdir -p ~/.config
