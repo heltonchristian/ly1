@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install -y bspwm sxhkd zsh kitty vim rofi nemo btop polybar papirus-icon-theme fonts-open-sans feh redshift neofetch xclip maim pulsemixer firefox-esr chromium picom 7zip
+sudo apt-get install -y bspwm sxhkd zsh kitty vim rofi nemo htop polybar papirus-icon-theme fonts-open-sans feh redshift neofetch xclip maim pulsemixer firefox-esr chromium picom 7zip
 
 mkdir -p ~/.config
 cp -r .config/* ~/.config/
