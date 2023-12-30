@@ -14,7 +14,8 @@ super + F5
 
 # File manager
 super + F10
-    kitty -e ranger
+    nemo
+    #kitty -e ranger
 
 # Spotify
 super + F11
@@ -45,8 +46,8 @@ super + shift + s
     #~/.config/polybar/launch.sh
 
 # Keyboard_Layout
-super + Pause
-    ~/scripts/changeKL.sh
+#super + Pause
+   #~/scripts/changeKL.sh
 
 # Wallpaper_script
 super + Print
