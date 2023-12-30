@@ -1,40 +1,29 @@
-#!/bin/sh
+#!/bin/bash
 
-# Instalar programas
-sudo pacman -S --noconfirm git go bspwm sxhkd zsh kitty vim rofi nemo ranger w3m btop polybar papirus-icon-theme ttf-nerd-fonts-symbols ttf-fira-code feh redshift neofetch ncspot xclip maim pulsemixer firefox chromium picom
+sudo apt-get update
+sudo apt-get install -y git golang-go bspwm sxhkd zsh kitty vim rofi nemo ranger w3m btop polybar papirus-icon-theme fonts-nerd-fonts fonts-firacode feh redshift neofetch ncdu xclip maim pulsemixer firefox chromium picom
 
-# Mover .config
 mkdir -p ~/.config
-mv -f .config ~/
+cp -r .config/* ~/.config/
 
-# Mover arquivos .zshrc,.xinitrc, scripts ...  para ~/
-mv -f .zshrc .xinitrc .zprofile wallpapers scripts .gtkrc-2.0 .ticker.yaml ~/
+cp .zshrc .xinitrc .zprofile wallpapers scripts .gtkrc-2.0 .ticker.yaml ~/
 
-# Dar permissões
-chmod -R 755 ~/.config/bspwm/bspwmrc
-chmod -R 644 ~/.config/sxhkd/sxhkdrc
-chmod -R 755 ~/.config/polybar/launch.sh
-chmod -R 755 ~/scripts/changewp.sh
-chmod -R 755 ~/scripts/changeKL.sh
+chmod -R 755 ~/.config/bspwm
+chmod -R 755 ~/.config/sxhkd
+chmod -R 755 ~/.config/polybar
+chmod 755 ~/scripts/changewp.sh
+chmod 755 ~/scripts/changeKL.sh
 
-#mouse
-echo -e 'Section "InputClass"\n     Identifier "My Mouse"\n     MatchIsPointer "yes"\n     Option "AccelerationProfile" "-1"\n     Option "AccelerationScheme" "none"\n     Option "AccelSpeed" "-1"\nEndSection' | sudo tee /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-
-#trocar o shell para zsh
 chsh -s /bin/zsh
 
-#AUR Helper
-cd
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd
+git clone https://github.com/PapirusDevelopmentTeam/papirus-folders.git
+cd papirus-folders
+sudo ./install.sh
+cd ..
+rm -rf papirus-folders
 
-#AUR programas
-yay -S --noconfirm papirus-folders-git equilux-theme ticker
-
-#icones, temas e fontes
-papirus-folders -C white --theme Papirus
-
-rm -rf ~/ly
-rm -rf ~/yay
+git clone https://github.com/sainnhe/equilux-theme.git
+cd equilux-theme
+sudo ./install.sh
+cd ..
+rm -rf equilux-theme
