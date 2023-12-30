@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install -y git golang-go bspwm sxhkd zsh kitty vim rofi nemo ranger w3m btop polybar papirus-icon-theme fonts-nerd-fonts fonts-firacode feh redshift neofetch ncdu xclip maim pulsemixer firefox chromium picom
+sudo apt-get install -y git golang-go bspwm sxhkd zsh kitty vim rofi nemo btop polybar papirus-icon-theme fonts-nerd-fonts fonts-firacode feh redshift neofetch ncdu xclip maim pulsemixer firefox chromium picom 7zip
 
 mkdir -p ~/.config
 cp -r .config/* ~/.config/
