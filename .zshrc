@@ -33,8 +33,6 @@ alias nl='redshift -O 5000 && clear'
 alias polybarc='sudo vim ~/.config/polybar/config.ini'
 alias rofi='sudo vim ~/.config/rofi/config.rasi'
 alias tc='sudo vim ~/.ticker.yaml'
-alias cs='nvidia-settings --assign CurrentMetaMode="DP-0: 1920x1080_240 { ViewPortIn=1440x1080, ViewPortOut=1920x1080+0+0 }, DVI-I-1: 1920x1080_144 { ViewPortIn=1920x1080, ViewPortOut=1920x1080+1920+0 }" && bspc wm -r'
-alias res='nvidia-settings --assign CurrentMetaMode="DP-0: 1920x1080_240 { ViewPortIn=1920x1080, ViewPortOut=1920x1080+0+0 }, DVI-I-1: 1920x1080_144 { ViewPortIn=1920x1080, ViewPortOut=1920x1080+1920+0 }" && bspc wm -r'
 
 ############### void ##################
 alias xi='sudo xbps-install -S'
