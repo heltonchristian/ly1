@@ -5,8 +5,7 @@ xrandr --output DP-0 --primary --mode 1920x1080 --rotate normal --rate 240 --out
 bspc monitor DP-0 -d I II III 
 bspc monitor DVI-I-1 -d IV V
 
-xsetroot -cursor_name left_ptr &
-xset s off
+xautolock -time 180 -locker "sudo zzz"
 
 sxhkd &
 picom &
