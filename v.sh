@@ -32,6 +32,6 @@ sudo ln -s /etc/sv/pipewire-pulse /var/service\
 
 sudo ln -s /etc/sv/dbus /var/service
 
-echo "blacklist nouveau" | sudo tee /etc/modprobe.d/disable-nouveau.conf
-echo "options nouveau modeset=0" | sudo tee -a /etc/modprobe.d/disable-nouveau.conf
-sudo xbps-reconfigure -f linux$(uname -r)
+#echo "blacklist nouveau" | sudo tee /etc/modprobe.d/disable-nouveau.conf
+#echo "options nouveau modeset=0" | sudo tee -a /etc/modprobe.d/disable-nouveau.conf
+#sudo xbps-reconfigure -f linux$(uname -r)
