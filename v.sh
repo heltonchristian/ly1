@@ -5,8 +5,8 @@ sudo xbps-install -y bspwm sxhkd xorg-minimal xinit zsh kitty vim xclip maim pic
 sleep 5
 
 mkdir -p ~/.config
-mv -f .config ~/
-mv -f .zshrc .xinitrc .zprofile wallpapers scripts ~/
+sudo mv -f .config ~/
+sudo mv -f .zshrc .xinitrc .zprofile wallpapers scripts ~/
 
 sleep 5
 
