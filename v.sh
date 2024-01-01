@@ -15,11 +15,10 @@ sudo chmod -R 644 ~/.config/sxhkd/sxhkdrc
 sudo chmod -R 755 ~/.config/polybar/launch.sh
 sudo chmod -R 755 ~/scripts/changewp.sh
 sudo chmod -R 755 ~/scripts/changeKL.sh
-sudo usermod -aG wheel ly
 
 sleep 5
 
-sudo chsh -s /bin/zsh
+#sudo chsh -s /bin/zsh
 
 sudo papirus-folders -C white --theme Papirus
 
