@@ -10,11 +10,11 @@ sudo mv -f .zshrc .xinitrc .zprofile wallpapers scripts ~/
 
 sleep 5
 
-chmod -R 755 ~/.config/bspwm/bspwmrc
-chmod -R 644 ~/.config/sxhkd/sxhkdrc
-chmod -R 755 ~/.config/polybar/launch.sh
-chmod -R 755 ~/scripts/changewp.sh
-chmod -R 755 ~/scripts/changeKL.sh
+sudo chmod -R 755 ~/.config/bspwm/bspwmrc
+sudo chmod -R 644 ~/.config/sxhkd/sxhkdrc
+sudo chmod -R 755 ~/.config/polybar/launch.sh
+sudo chmod -R 755 ~/scripts/changewp.sh
+sudo chmod -R 755 ~/scripts/changeKL.sh
 sudo usermod -aG wheel ly
 
 sleep 5
