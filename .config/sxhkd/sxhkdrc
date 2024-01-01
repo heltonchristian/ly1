@@ -6,7 +6,7 @@ super + Return
 
 # Browser
 super + F9
-    firefox
+    firefox --new-instance
 
 # Browser2
 super + F5
