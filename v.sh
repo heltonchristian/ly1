@@ -1,5 +1,4 @@
-sudo xbps-install -y void-repo-nonfree void-repo-multilib void-repo-nonfree-multilib 
-sudo xbps-install -Su
+sudo xbps-install -y void-repo-nonfree void-repo-multilib void-repo-nonfree-multilib && sudo xbps-install -Syyu
 sudo xbps-install -y bspwm sxhkd xorg-minimal xinit zsh kitty vim xclip maim picom pipewire pipewire-pulseaudio pulsemixer rofi redshift htop nerd-fonts gtk-theme-united-gnome papirus-icon-theme papirus-folders feh neofetch firefox chromium virt-manager qemu libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit nvidia-libs-32bit mono xautolock setxkbmap
 
 mkdir -p ~/.config
