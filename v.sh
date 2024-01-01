@@ -5,7 +5,7 @@ sudo xbps-install -y bspwm sxhkd xorg-minimal xinit zsh kitty vim xclip maim pic
 mkdir -p ~/.config
 mv -f .config ~/
 
-mv -f .zshrc .xinitrc .zprofile wallpapers scripts 
+mv -f .zshrc .xinitrc .zprofile wallpapers scripts ~/
 
 chmod -R 755 ~/.config/bspwm/bspwmrc
 chmod -R 644 ~/.config/sxhkd/sxhkdrc
