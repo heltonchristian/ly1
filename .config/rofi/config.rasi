@@ -1,7 +1,7 @@
 * {
     font:   "Fira Code 10";
 
-    nord0:     #232323;
+    nord0:     #000000;
     nord1:     #242424;
     nord2:     #2e2e2e;
     nord3:     #383838;
