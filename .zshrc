@@ -44,3 +44,4 @@ alias xsearch='xbps-query -Rs'
 #LS_COLORS='rs=0:di=1;97:fi=1;90';
 LS_COLORS='rs=0:di=1;94:fi=1;37:ln=1;34'
 export LS_COLORS
+export XDG_DATA_DIRS="$XDG_DATA_DIRS:$HOME/.icons/Papirus~white"
