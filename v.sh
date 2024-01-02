@@ -22,14 +22,14 @@ sudo chsh -s /bin/zsh
 
 sudo papirus-folders -C white --theme Papirus
 
-sudo ln -s /etc/sv/libvirtd /var/service
-sudo ln -s /etc/sv/virtlockd /var/service
-sudo ln -s /etc/sv/virtlogd /var/service
+#sudo ln -s /etc/sv/libvirtd /var/service
+#sudo ln -s /etc/sv/virtlockd /var/service
+#sudo ln -s /etc/sv/virtlogd /var/service
 
-sudo ln -s /etc/sv/pipewire /var/service
-sudo ln -s /etc/sv/pipewire-pulse /var/service
+#sudo ln -s /etc/sv/pipewire /var/service
+#sudo ln -s /etc/sv/pipewire-pulse /var/service
 
-sudo ln -s /etc/sv/dbus /var/service
+#sudo ln -s /etc/sv/dbus /var/service
 
 #echo "blacklist nouveau" | sudo tee /etc/modprobe.d/disable-nouveau.conf
 #echo "options nouveau modeset=0" | sudo tee -a /etc/modprobe.d/disable-nouveau.conf
