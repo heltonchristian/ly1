@@ -18,7 +18,7 @@ chmod -R 755 ~/scripts/changewp.sh
 chmod -R 755 ~/scripts/changeKL.sh
 
 #mouse
-echo -e 'Section "InputClass"\n     Identifier "My Mouse"\n     MatchIsPointer "yes"\n     Option "AccelerationProfile" "-1"\n     Option "AccelerationScheme" "none"\n     Option "AccelSpeed" "-1"\nEndSection' | sudo tee /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+#echo -e 'Section "InputClass"\n     Identifier "My Mouse"\n     MatchIsPointer "yes"\n     Option "AccelerationProfile" "-1"\n     Option "AccelerationScheme" "none"\n     Option "AccelSpeed" "-1"\nEndSection' | sudo tee /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
 
 #trocar o shell para zsh
 chsh -s /bin/zsh
@@ -31,10 +31,10 @@ makepkg -si
 cd
 
 #AUR programas
-yay -S --noconfirm papirus-folders-git equilux-theme ticker
+yay -S --noconfirm papirus-folders equilux-theme ticker
 
 #icones, temas e fontes
 papirus-folders -C white --theme Papirus
 
-rm -rf ~/ly
+rm -rf ~/ly1
 rm -rf ~/yay
