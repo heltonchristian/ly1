@@ -4,11 +4,8 @@
 sudo pacman -S --noconfirm git go bspwm sxhkd zsh kitty vim rofi nemo htop polybar papirus-icon-theme ttf-nerd-fonts-symbols ttf-fira-code feh redshift neofetch ncspot xclip maim volumeicon firefox chromium picom
 
 # Mover .config
-#rm -r ~/.config
-mkdir -p ~/.config
-mv -f .config/bspwm/bspwmrc  ~/.config/bspwm/
-mv -f .config/sxhkd/sxhkdrc  ~/.config/sxhkd/
-
+rm -r ~/.config
+mv -f .config ~/
 
 # Mover arquivos .zshrc,.xinitrc, scripts ...  para ~/
 mv -f .zshrc .xinitrc .zprofile wallpapers scripts .gtkrc-2.0 .ticker.yaml ~/
@@ -39,5 +36,5 @@ yay -S --noconfirm papirus-folders equilux-theme ticker
 #icones, temas e fontes
 papirus-folders -C white --theme Papirus
 
-#rm -rf ~/ly1
+rm -rf ~/ly1
 rm -rf ~/yay
