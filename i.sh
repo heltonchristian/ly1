@@ -39,5 +39,5 @@ yay -S --noconfirm papirus-folders equilux-theme ticker
 #icones, temas e fontes
 papirus-folders -C white --theme Papirus
 
-rm -rf ~/ly1
+#rm -rf ~/ly1
 rm -rf ~/yay
