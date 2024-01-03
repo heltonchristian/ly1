@@ -6,8 +6,8 @@ sudo pacman -S --noconfirm git go bspwm sxhkd zsh kitty vim rofi nemo htop polyb
 # Mover .config
 #rm -r ~/.config
 mkdir -p ~/.config
-mv -f /.config/bspwm/bspwmrc  ~/.config/bspwm/
-mv -f /.config/sxhkd/sxhkdrc  ~/.config/sxhkd/
+mv -f .config/bspwm/bspwmrc  ~/.config/bspwm/
+mv -f .config/sxhkd/sxhkdrc  ~/.config/sxhkd/
 
 
 # Mover arquivos .zshrc,.xinitrc, scripts ...  para ~/
