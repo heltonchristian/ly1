@@ -4,9 +4,10 @@
 sudo pacman -S --noconfirm git go bspwm sxhkd zsh kitty vim rofi nemo htop polybar papirus-icon-theme ttf-nerd-fonts-symbols ttf-fira-code feh redshift neofetch ncspot xclip maim volumeicon firefox chromium picom
 
 # Mover .config
+#rm -r ~/.config
 mkdir -p ~/.config
-mv -f /.config/bspwm  ~/.config
-mv -f /.config/sxhkd  ~/.config
+mv -f /.config/bspwm/bspwmrc  ~/.config/bspwm/
+mv -f /.config/sxhkd/sxhkdrc  ~/.config/sxhkd/
 
 
 # Mover arquivos .zshrc,.xinitrc, scripts ...  para ~/
