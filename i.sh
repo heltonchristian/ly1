@@ -24,17 +24,17 @@ chmod -R 755 ~/scripts/changeKL.sh
 chsh -s /bin/zsh
 
 #AUR Helper
-cd
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd
+#cd
+#git clone https://aur.archlinux.org/yay.git
+#cd yay
+#makepkg -si
+#cd
 
 #AUR programas
-yay -S --noconfirm papirus-folders equilux-theme ticker
+#yay -S --noconfirm papirus-folders equilux-theme ticker
 
 #icones, temas e fontes
-papirus-folders -C white --theme Papirus
+#papirus-folders -C white --theme Papirus
 
-rm -rf ~/ly1
-rm -rf ~/yay
+#rm -rf ~/ly1
+#rm -rf ~/yay
