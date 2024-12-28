@@ -2,7 +2,7 @@
 #PROMPT='%F{243}%1~ %f%F{White}%f  '
 PROMPT='%F{#888888}%1~%f %F{White}%f  '
 
-############# BÁSICO #############
+##########################
 autoload -U compinit
 compinit
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
@@ -12,7 +12,7 @@ HISTFILE=~/.zsh_history
 setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY
 
-# Configuração de aliases
+#########################
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -l'
