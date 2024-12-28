@@ -36,5 +36,11 @@ yay -S --noconfirm papirus-folders equilux-theme ticker
 #icones, temas e fontes
 papirus-folders -C white --theme Papirus
 
-rm -rf ~/ly
+rm -rf ~/ly1
 rm -rf ~/yay
+
+### Autologin ###
+sudo mkdir -p /etc/systemd/system/getty@tty1.service.d
+echo "[Service]
+ExecStart=
+ExecStart=-/sbin/agetty -o '-p -f -- \\u' --noclear --autologin ly - \$TERM" | sudo tee /etc/systemd/system/getty@tty1.service.d/autologin.conf > /dev/null
