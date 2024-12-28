@@ -10,18 +10,9 @@ currency-summary-only: true
 sort: alpha
 watchlist:
       - CMIG4.SA
-      - CPLE6.SA
-      - SAPR4.SA
-      - SANB4.SA
-      - ITSA4.SA
-      - A1MD34.SA
-      - ITLC34.SA
-      - MSFT34.SA
-      - QCOM34.SA
-      - GOGL34.SA
-      -
-      - MSFT
-      - AMD
-      - GOOGL
-      - QCOM
-      - INTC 
+      - PETR4.SA
+      - CSMG3.SA
+      - NVDC34.SA
+      - TSMC34.SA
+      - VISA34.SA
+      - MSCD34.SA
