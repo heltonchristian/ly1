@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Instalar programas
-sudo pacman -S --noconfirm git go bspwm sxhkd zsh kitty vim rofi nemo htop polybar papirus-icon-theme ttf-nerd-fonts-symbols ttf-fira-code ttf-font-awesome feh redshift neofetch ncspot xclip maim easyeffects firefox chromium libreoffice-fresh orchis-theme
+sudo pacman -S --noconfirm git go intel-ucode dkms nvidia-dkms nivida-settings bspwm sxhkd zsh kitty vim rofi nemo htop polybar papirus-icon-theme ttf-nerd-fonts-symbols ttf-fira-code ttf-font-awesome feh redshift neofetch ncspot xclip maim easyeffects firefox chromium libreoffice-fresh orchis-theme
 
 # Mover .config
 rm -r ~/.config
