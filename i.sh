@@ -1,14 +1,14 @@
 #!/bin/sh
 
 # Instalar programas
-sudo pacman -S --noconfirm git go polkit-gnome intel-ucode dkms nvidia-dkms bspwm sxhkd zsh kitty vim rofi nemo htop polybar papirus-icon-theme ttf-nerd-fonts-symbols ttf-fira-code ttf-font-awesome feh redshift neofetch ncspot xclip maim pavucontrol firefox chromium libreoffice-fresh orchis-theme
+sudo pacman -S --noconfirm git go bspwm sxhkd zsh kitty vim rofi nemo htop polybar papirus-icon-theme ttf-nerd-fonts-symbols ttf-fira-code ttf-font-awesome feh redshift neofetch xclip maim pavucontrol firefox chromium libreoffice-fresh libreoffice-fresh-pt-br libreoffice-fresh-pt-br orchis-theme
 
 # Mover .config
 rm -r ~/.config
 mv -f .config ~/
 
 # Mover arquivos .zshrc,.xinitrc, scripts ...  para ~/
-mv -f .zshrc .xinitrc .zprofile wallpapers scripts .gtkrc-2.0 .ticker.yaml ~/
+mv -f .zshrc .xinitrc .zprofile wallpapers scripts .gtkrc-2.0 ~/
 
 # Dar permissões
 chmod -R 755 ~/.config/bspwm/bspwmrc
@@ -30,7 +30,7 @@ makepkg -si
 cd
 
 #AUR programas
-yay -S --noconfirm papirus-folders ticker
+yay -S --noconfirm papirus-folders
 
 #icones, temas e fontes
 papirus-folders -C white --theme Papirus
