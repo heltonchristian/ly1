@@ -1,4 +1,4 @@
 if [[ "$TTY" = "/dev/tty1" ]];then
-	#startx
-	Hyprland
+	startx
+	#Hyprland
 fi
