@@ -35,7 +35,7 @@ yay -S --noconfirm papirus-folders ticker
 #icones, temas e fontes
 papirus-folders -C white --theme Papirus
 
-rm -rf ~/ly1
+rm -rf ~/bspwm
 rm -rf ~/yay
 
 ### Autologin ###
